@@ -1,0 +1,91 @@
+[debug] [2023-11-17T17:54:52.679Z] ----------------------------------------------------------------------
+[debug] [2023-11-17T17:54:52.681Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\febry\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-17T17:54:52.681Z] CLI Version:   12.8.1
+[debug] [2023-11-17T17:54:52.682Z] Platform:      win32
+[debug] [2023-11-17T17:54:52.682Z] Node Version:  v18.15.0
+[debug] [2023-11-17T17:54:52.683Z] Time:          Sat Nov 18 2023 00:54:52 GMT+0700 (Western Indonesia Time)
+[debug] [2023-11-17T17:54:52.683Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-17T17:54:52.688Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-11-17T17:54:52.743Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-17T17:54:52.743Z] > authorizing via signed-in user (onlimo.cmc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\febry\OneDrive\Documents\Dashboard\musirawas
+
+[debug] [2023-11-17T17:54:53.603Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-11-17T17:54:53.604Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2023-11-17T18:00:02.397Z] ----------------------------------------------------------------------
+[debug] [2023-11-17T18:00:02.401Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\febry\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2023-11-17T18:00:02.402Z] CLI Version:   12.8.1
+[debug] [2023-11-17T18:00:02.402Z] Platform:      win32
+[debug] [2023-11-17T18:00:02.403Z] Node Version:  v18.15.0
+[debug] [2023-11-17T18:00:02.404Z] Time:          Sat Nov 18 2023 01:00:02 GMT+0700 (Western Indonesia Time)
+[debug] [2023-11-17T18:00:02.405Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-11-17T18:00:02.416Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-17T18:00:02.417Z] > authorizing via signed-in user (onlimo.cmc@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\febry\OneDrive\Documents\Dashboard\musirawas
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2023-11-17T18:02:12.067Z] > refreshing access token with scopes: []
+[debug] [2023-11-17T18:02:12.069Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-11-17T18:02:12.069Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-17T18:02:12.450Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-11-17T18:02:12.450Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-11-17T18:02:12.467Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2023-11-17T18:02:13.922Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2023-11-17T18:02:13.923Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project fastpec-oms (Fastpec) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[info] +  Wrote public/404.html 
+[debug] [2023-11-17T18:02:31.603Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2023-11-17T18:02:31.890Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2023-11-17T18:02:31.890Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.6.0","browserURL":"https://www.gstatic.com/firebasejs/10.6.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.6.0/firebase.tgz"},"live":{"version":"10.6","browserURL":"https://www.gstatic.com/firebasejs/live/10.6/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.6/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.6.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.6.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.6.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.6.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.6.0/firebase-auth/cordova.js","functions":"https://www.gstatic.com/firebasejs/10.6.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.6.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.6.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.6.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.6.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.6.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.6.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at C:\Users\febry\OneDrive\Documents\Dashboard\musirawas 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=1024157343&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-11-17T18:02:43.808Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2023-11-17T18:02:43.808Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2023-11-17T18:02:44.520Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2023-11-17T18:02:44.520Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2023-11-17T18:02:44.527Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2023-11-17T18:02:45.269Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2023-11-17T18:02:45.269Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"febryprasetyo","id":32359566,"node_id":"MDQ6VXNlcjMyMzU5NTY2","avatar_url":"https://avatars.githubusercontent.com/u/32359566?v=4","gravatar_id":"","url":"https://api.github.com/users/febryprasetyo","html_url":"https://github.com/febryprasetyo","followers_url":"https://api.github.com/users/febryprasetyo/followers","following_url":"https://api.github.com/users/febryprasetyo/following{/other_user}","gists_url":"https://api.github.com/users/febryprasetyo/gists{/gist_id}","starred_url":"https://api.github.com/users/febryprasetyo/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/febryprasetyo/subscriptions","organizations_url":"https://api.github.com/users/febryprasetyo/orgs","repos_url":"https://api.github.com/users/febryprasetyo/repos","events_url":"https://api.github.com/users/febryprasetyo/events{/privacy}","received_events_url":"https://api.github.com/users/febryprasetyo/received_events","type":"User","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":12,"public_gists":1,"followers":0,"following":0,"created_at":"2017-09-28T10:48:30Z","updated_at":"2023-11-13T11:34:39Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":657092,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as febryprasetyo 
+[info] 
